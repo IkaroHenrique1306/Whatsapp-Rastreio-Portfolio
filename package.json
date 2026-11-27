@@ -1,0 +1,26 @@
+{
+  "name": "whatsapp-rastreio",
+  "version": "1.0.0",
+  "description": "Sistema de Rastreamento de Encomendas via WhatsApp",
+  "main": "whatsapp-rastreio.js",
+  "scripts": {
+    "start": "node whatsapp-rastreio.js",
+    "postinstall": "patch-package --error-on-fail"
+  },
+  "dependencies": {
+    "axios": "1.21.1",
+    "puppeteer": "25.19.0",
+    "qrcode": "1.5.4",
+    "whatsapp-web.js": "1.34.8"
+  },
+  "overrides": {
+    "puppeteer": "25.19.0",
+    "glob": "14.0.6",
+    "minimatch": "11.0.9"
+  },
+  "author": "Íkaro Henrique Marçal Alexandre & Matheus Kioshi Fernandes Numata",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "patch-package": "8.0.1"
+  }
+}
