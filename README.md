@@ -1,34 +1,34 @@
-\# 📦 WhatsApp Rastreio 2.0
+# 📦 WhatsApp Rastreio 2.0
 
 
 
-!\[JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-!\[Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=nodedotjs\&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
-!\[Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-!\[Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge\&logo=flask\&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 
-!\[HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
-!\[CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-!\[Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge\&logo=windows\&logoColor=white)
-
-
-
-!\[Status](https://img.shields.io/badge/Status-Versão\_Demonstrativa-success)
-
-!\[License](https://img.shields.io/badge/Licença-Proprietária-red)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
 
 
-\## 📖 Sobre o projeto
+![Status](https://img.shields.io/badge/Status-Versão_Demonstrativa-success)
+
+![License](https://img.shields.io/badge/Licença-Proprietária-red)
 
 
 
-O \*\*WhatsApp Rastreio 2.0\*\* é um sistema Full Stack desenvolvido para automatizar o acompanhamento de encomendas e o envio de notificações de rastreamento pelo WhatsApp.
+## 📖 Sobre o projeto
+
+
+
+O **WhatsApp Rastreio 2.0** é um sistema Full Stack desenvolvido para automatizar o acompanhamento de encomendas e o envio de notificações de rastreamento pelo WhatsApp.
 
 
 
@@ -40,7 +40,7 @@ Sua arquitetura combina um servidor Python, um dashboard web, um bot desenvolvid
 
 
 
-\### Versão de portfólio
+### Versão de portfólio
 
 
 
@@ -56,7 +56,7 @@ Nenhuma mensagem real é enviada, nenhuma sessão do WhatsApp é iniciada e nenh
 
 
 
-\## 🎯 Objetivos
+## 🎯 Objetivos
 
 
 
@@ -74,11 +74,11 @@ Nenhuma mensagem real é enviada, nenhuma sessão do WhatsApp é iniciada e nenh
 
 
 
-\## 🚀 Funcionalidades
+## 🚀 Funcionalidades
 
 
 
-\### Dashboard administrativo
+### Dashboard administrativo
 
 
 
@@ -100,7 +100,7 @@ Nenhuma mensagem real é enviada, nenhuma sessão do WhatsApp é iniciada e nenh
 
 
 
-\### Bot de rastreamento
+### Bot de rastreamento
 
 
 
@@ -122,7 +122,7 @@ Nenhuma mensagem real é enviada, nenhuma sessão do WhatsApp é iniciada e nenh
 
 
 
-\### Aplicações desktop
+### Aplicações desktop
 
 
 
@@ -142,7 +142,7 @@ Nenhuma mensagem real é enviada, nenhuma sessão do WhatsApp é iniciada e nenh
 
 
 
-\## 🛠️ Tecnologias utilizadas
+## 🛠️ Tecnologias utilizadas
 
 
 
@@ -180,7 +180,7 @@ Nenhuma mensagem real é enviada, nenhuma sessão do WhatsApp é iniciada e nenh
 
 
 
-\## 🏗️ Arquitetura do sistema
+## 🏗️ Arquitetura do sistema
 
 
 
@@ -188,23 +188,23 @@ Nenhuma mensagem real é enviada, nenhuma sessão do WhatsApp é iniciada e nenh
 
 flowchart TD
 
-&#x20;   A\[Usuário] --> B\[Dashboard Web]
+&#x20;   A[Usuário] --> B[Dashboard Web]
 
-&#x20;   B --> C\[Servidor Flask]
+&#x20;   B --> C[Servidor Flask]
 
-&#x20;   C --> D\[Armazenamento JSON]
+&#x20;   C --> D[Armazenamento JSON]
 
-&#x20;   E\[Bot Node.js] --> F\[Dados fictícios]
+&#x20;   E[Bot Node.js] --> F[Dados fictícios]
 
-&#x20;   F --> G\[Simulador de rastreamento]
+&#x20;   F --> G[Simulador de rastreamento]
 
-&#x20;   G --> H\[Processamento de notificações]
+&#x20;   G --> H[Processamento de notificações]
 
-&#x20;   H --> I\[Simulação de envio]
+&#x20;   H --> I[Simulação de envio]
 
-&#x20;   J\[Launcher Flask] --> C
+&#x20;   J[Launcher Flask] --> C
 
-&#x20;   K\[Launcher Node.js] --> E
+&#x20;   K[Launcher Node.js] --> E
 
 ```
 
@@ -218,7 +218,7 @@ Na edição demonstrativa, o bot utiliza dados fictícios em vez dos dados opera
 
 
 
-\## 📂 Estrutura do projeto
+## 📂 Estrutura do projeto
 
 
 
@@ -252,9 +252,9 @@ Whatsapp-Rastreio/
 
 ├── whatsapp-rastreio.js
 
-├── launcher\_flask.py
+├── launcher_flask.py
 
-├── launcher\_node.py
+├── launcher_node.py
 
 ├── Bot WhatsApp.spec
 
@@ -276,7 +276,7 @@ Whatsapp-Rastreio/
 
 
 
-\## 🔐 Segurança e privacidade
+## 🔐 Segurança e privacidade
 
 
 
@@ -284,7 +284,7 @@ O projeto incorpora medidas de segurança voltadas à proteção das configuraç
 
 
 
-\### Medidas implementadas
+### Medidas implementadas
 
 
 
@@ -326,11 +326,11 @@ O armazenamento local utiliza JSON e não possui criptografia em repouso. A vers
 
 
 
-\## ⚙️ Instalação
+## ⚙️ Instalação
 
 
 
-\### Pré-requisitos
+### Pré-requisitos
 
 
 
@@ -346,7 +346,7 @@ O armazenamento local utiliza JSON e não possui criptografia em repouso. A vers
 
 
 
-\### 1. Instalar as dependências
+### 1. Instalar as dependências
 
 
 
@@ -374,7 +374,7 @@ python -m pip install flask pyinstaller
 
 
 
-\### 2. Configurar o ambiente
+### 2. Configurar o ambiente
 
 
 
@@ -398,21 +398,21 @@ Configure as variáveis necessárias no arquivo `.env`.
 
 |---|---|
 
-| SECRET\_KEY | Chave secreta do Flask |
+| SECRET_KEY | Chave secreta do Flask |
 
-| DASH\_USER | Usuário do dashboard |
+| DASH_USER | Usuário do dashboard |
 
-| DASH\_PASSWORD\_HASH | Hash da senha |
+| DASH_PASSWORD_HASH | Hash da senha |
 
-| DADOS\_TOKEN | Token de autenticação entre serviços |
+| DADOS_TOKEN | Token de autenticação entre serviços |
 
-| TRACKING\_MOCK\_STATUS | Status simulado de rastreamento |
+| TRACKING_MOCK_STATUS | Status simulado de rastreamento |
 
 | HOST | Endereço do servidor |
 
 | PORT | Porta do servidor |
 
-| BROWSER\_PATH | Caminho opcional do navegador |
+| BROWSER_PATH | Caminho opcional do navegador |
 
 
 
@@ -420,11 +420,11 @@ As instruções para geração das credenciais locais estão disponíveis no `.e
 
 
 
-\*\*Nunca utilize credenciais de produção nesta demonstração.\*\*
+**Nunca utilize credenciais de produção nesta demonstração.**
 
 
 
-\### 3. Executar o servidor
+### 3. Executar o servidor
 
 
 
@@ -444,7 +444,7 @@ http://127.0.0.1:5000
 
 
 
-\### 4. Executar o bot demonstrativo
+### 4. Executar o bot demonstrativo
 
 
 
@@ -460,7 +460,7 @@ O bot realizará uma simulação de rastreamento e encerrará sua execução sem
 
 
 
-\## 🖥️ Executáveis Windows
+## 🖥️ Executáveis Windows
 
 
 
@@ -470,7 +470,7 @@ Os launchers podem ser compilados utilizando o PyInstaller.
 
 ```powershell
 
-python -m PyInstaller --onefile --noconsole --name "Servidor Flask" launcher\_flask.py
+python -m PyInstaller --onefile --noconsole --name "Servidor Flask" launcher_flask.py
 
 ```
 
@@ -478,7 +478,7 @@ python -m PyInstaller --onefile --noconsole --name "Servidor Flask" launcher\_fl
 
 ```powershell
 
-python -m PyInstaller --onefile --noconsole --name "Bot WhatsApp" launcher\_node.py
+python -m PyInstaller --onefile --noconsole --name "Bot WhatsApp" launcher_node.py
 
 ```
 
@@ -496,7 +496,7 @@ Os launchers dependem dos ambientes Python e Node.js instalados no computador.
 
 
 
-\## 🧪 Validação e testes
+## 🧪 Validação e testes
 
 
 
@@ -530,7 +530,7 @@ A edição de portfólio foi adaptada para executar o fluxo demonstrativo sem ac
 
 
 
-\## 🧠 Competências demonstradas
+## 🧠 Competências demonstradas
 
 
 
@@ -572,7 +572,7 @@ Este projeto reúne conhecimentos práticos de:
 
 
 
-\## 📈 Melhorias futuras
+## 📈 Melhorias futuras
 
 
 
@@ -596,11 +596,11 @@ Este projeto reúne conhecimentos práticos de:
 
 
 
-\## 👨‍💻 Desenvolvedores
+## 👨‍💻 Desenvolvedores
 
 
 
-\### Íkaro Henrique Marçal Alexandre
+### Íkaro Henrique Marçal Alexandre
 
 
 
@@ -608,11 +608,11 @@ Estudante de Engenharia de Software na Universidade Tecnológica Federal do Para
 
 
 
-\[!\[GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/IkaroHenrique1306)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/IkaroHenrique1306)
 
 
 
-\### Matheus Kioshi Fernandes Numata
+### Matheus Kioshi Fernandes Numata
 
 
 
@@ -620,7 +620,7 @@ Coautor e desenvolvedor do projeto.
 
 
 
-\## ⚠️ Aviso
+## ⚠️ Aviso
 
 
 
@@ -636,7 +636,7 @@ A edição disponibilizada neste repositório não realiza envios reais de mensa
 
 
 
-\## 📄 Direitos autorais
+## 📄 Direitos autorais
 
 
 
@@ -656,9 +656,9 @@ Este projeto não possui licença de código aberto concedida. A disponibilizaç
 
 
 
-\*\*WhatsApp Rastreio 2.0\*\*
+**WhatsApp Rastreio 2.0**
 
 
 
-\*Transformando processos manuais em soluções automatizadas por meio da Engenharia de Software.\*
+*Transformando processos manuais em soluções automatizadas por meio da Engenharia de Software.*
 
